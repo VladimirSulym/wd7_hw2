@@ -44,10 +44,6 @@ img {
     margin: 0px 20px;
     padding: 0px;
   }
-
-  .classN {
-    color: red;
-  }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -79,10 +75,6 @@ img {
     margin: 0px 20px;
     padding: 0px;
   }
-
-  .classN {
-    color: rgb(51, 255, 0);
-  }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -109,10 +101,6 @@ img {
   .blok {
     margin: 0px 20px;
     padding: 0px;
-  }
-
-  .classN {
-    color: rgb(38, 0, 255);
   }
 }
 
@@ -141,17 +129,13 @@ img {
     margin: 0px 20px;
     padding: 0px;
   }
-
-  .classN {
-    color: rgb(255, 0, 221);
-  }
 }
 
 @media screen and (max-width: 300px) {
-img {
-  width: 100%!important;
-  margin: 0px!important;
-}
+  img {
+    width: 100% !important;
+    margin: 0px !important;
+  }
 }
 
 .containerFIO {
@@ -199,5 +183,5 @@ a {
 }
 
 .h2left {
-text-align: left;
+  text-align: left;
 }
