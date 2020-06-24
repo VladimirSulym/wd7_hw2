@@ -7,6 +7,12 @@ body {
   margin: 0px;
 }
 
+img {
+  transition-duration: 1000ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+
 @media screen and (min-width: 1200px) {
   .myBodyStyle {
     background-color: #f3f3f3;
@@ -141,6 +147,13 @@ body {
   }
 }
 
+@media screen and (max-width: 300px) {
+img {
+  width: 100%!important;
+  margin: 0px!important;
+}
+}
+
 .containerFIO {
   display: flex;
   flex-direction: row;
@@ -152,6 +165,7 @@ h2 {
   text-align: center;
   margin: 10px 0px;
   text-transform: uppercase;
+  color: darkblue;
 }
 
 img {
